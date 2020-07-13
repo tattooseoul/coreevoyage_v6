@@ -4,6 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
+import BootstrapVue from 'bootstrap-vue'
 import '~/assets/styles.scss'
 
 
