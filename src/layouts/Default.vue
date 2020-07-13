@@ -46,7 +46,7 @@
     <div class="flex-grow">
       <slot/>
 
-         <b-button>GOGO</b-button>
+         <b-button>Bouton</b-button>
 
 
     </div>
@@ -110,7 +110,7 @@
 
         components: {
 
-BButton
+          BButton
 
         }
       
