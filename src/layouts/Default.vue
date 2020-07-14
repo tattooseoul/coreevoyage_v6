@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="border-t-14 border-green-700">
+    <header class="sticky top-0 z-10 w-full border-t-14 border-green-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/logo.svg" class="w-40" alt="logo" /></g-link>
@@ -125,7 +125,8 @@ import DropdownMenu from '../components/DropdownMenu'
 export default {
   components: {
     SearchInput,
-    ThemeSwitcher
+    ThemeSwitcher,
+    DropdownMenu
   },
   mounted() {
     this.theme = localStorage.getItem('theme') || 'theme-light'
