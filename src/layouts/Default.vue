@@ -39,6 +39,9 @@
           <li>
             <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
           </li>
+          <li>
+            <dropdown-menu />
+          </li>
         </ul>
       </nav>
     </header>
@@ -117,6 +120,7 @@ query {
 <script>
 import SearchInput from '../components/SearchInput'
 import ThemeSwitcher from '../components/ThemeSwitcher'
+import DropdownMenu from '../components/DropdownMenu'
 
 export default {
   components: {
