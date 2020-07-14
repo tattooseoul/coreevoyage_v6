@@ -103,19 +103,7 @@
   </div>
 </template>
 
-  <script>
-
-      import { BButton } from 'bootstrap-vue'
-      export default {
-
-        components: {
-
-          BButton
-
-        }
-      
-      }
-      </script>
+ 
       
 
 <static-query>
